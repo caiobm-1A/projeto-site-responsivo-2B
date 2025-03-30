@@ -1,18 +1,18 @@
-.cabecalho{
+.cabecalho {
     background-color: var(--cor-do-cabecalho);
     padding: 1em;
 }
 
-.container{
+.container {
     display: flex;
     align-items: center;
 }
 
-.container__imagem, .container__frase{
+.container__imagem, .container__frase {
     padding: 1em;
 }
 
-.container__titulo, .container__frase{
+.container__titulo, .container__frase {
     display: none;
 }
 
@@ -26,7 +26,6 @@
         display: block;
     }
 }
-
 @media screen and (min-width: 1024px) {
     .container__frase {
         padding-left: 5em;
