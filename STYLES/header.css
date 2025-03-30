@@ -8,11 +8,11 @@
     align-items: center;
 }
 
-.container_imagem, .container_frase{
+.container__imagem, .container__frase{
     padding: 1em;
 }
 
-.container_titulo, .container_frase{
+.container__titulo, .container__frase{
     display: none;
 }
 
