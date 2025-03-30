@@ -8,27 +8,27 @@
     align-items: center;
 }
 
-.container_imagem, .container_frase{
+.container__imagem, .container__frase{
     padding: 1em;
 }
 
-.container_titulo, .container_frase{
+.container__titulo, .container__frase{
     display: none;
 }
 
 @media screen and (min-width: 820px) {
-    .container_titulo, .container_titulo--negrito {
+    .container__titulo, .container__titulo--negrito {
         font-size: 30px;
     }
 
-    .container_titulo {
+    .container__titulo {
         font-weight: 400;
         display: block;
     }
 }
 
 @media screen and (min-width: 1024px) {
-    .container_frase {
+    .container__frase {
         padding-left: 5em;
         font-size: 20px;
         display: block;
